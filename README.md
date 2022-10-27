@@ -81,6 +81,16 @@ tailwindcss는 기기마다 사이즈에 대한 중단점이 있으므로 복잡
 <div class="text-center sm:text-left"></div>
 ```
 
+### Dark mode
+https://tailwindcss.com/docs/dark-mode
+
+tailwindcss를 사용하면 drakmode를 쉽게 적용할 수 있다고한다.
+
+html의 class 목록에 `dark`가 있는 것을 보고 `dark 접근자`를 이용하여 색깔을 구분지어서 적용할 수 있는 것이다.  
+다크모드를 수동으로 지원할 땐 모드를 `media`로 바꿔주면 된다. 원한다면 클래스 이름을 바꿀 수도 있음.
+
+
+
 # 참조한 사이트
 > https://tailwindcss.com/  
 > https://so-so.dev/web/tailwindcss-w-twin-macro-emotion/  
